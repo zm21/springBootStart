@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+//@CrossOrigin //cors
 @RestController
 @RequestMapping("/api/")
 public class CategoryController {
